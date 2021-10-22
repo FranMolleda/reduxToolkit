@@ -1,8 +1,11 @@
+import Navbar from "./components/Navbar";
+import UserList from "./components/UserList";
 
 function App() {
   return (
-    <div >
-      <h1>Redux Toolkit</h1>
+    <div>
+     <Navbar/>
+     <UserList/>
     </div>
   );
 }
